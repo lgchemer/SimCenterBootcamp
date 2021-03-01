@@ -8,6 +8,7 @@ void domainPrint(Domain *theDomain) {
   domainPrintNodes(theDomain);
 }
 
+
 void domainAddNode(Domain *theDomain, int tag, double crd1, double crd2) {
   Node *theNextNode = (Node *)malloc(sizeof(Node));
   nodeSetup(theNextNode, tag, crd1, crd2);

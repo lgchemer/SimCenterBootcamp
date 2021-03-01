@@ -24,6 +24,6 @@ int main(int argc, char **argv) {
     printf("%.4f %.4f %.4f\n", value1, value2, value3);
   }
 
-  // free the array
+  // delete the array
   delete array1;
 }
